@@ -1,0 +1,10 @@
+{
+    "name": "Taco Cat AI",
+    "version": "1.0.0",
+    "description": "chrome extension to my chrome, AI will write my email responses",
+    "manifest_version": 3,
+    "author": "stan alam",
+    "action": {
+        "default_popup": "index.html"
+    }
+}
