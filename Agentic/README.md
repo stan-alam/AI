@@ -1,11 +1,18 @@
 Week 1
-1 Day 1 - [ ]  Autonomous AI Agent Demo - [ ]  Using N8n to Control Smart Home Devices
-2 Day 1 - [ ]  AI Agent Frameworks Explained - [ ]  OpenAI SDK, Crew AI, LangGraph & AutoGen
-3 Day 1 - [ ]  Agent Engineering Setup - [ ]  Understanding Cursor IDE, UV & API Options
-4 Day 1 - [ ]  Windows Setup for AI Development - [ ]  Git, Cursor IDE & UV Package Manager
-5 Day 1 - [ ]  Setting Up Your Mac for AI Projects - [ ]  GitHub, Cursor IDE & OpenAI API Key
-6 Day 1 - [ ]  Building Your First Agentic AI Workflow with OpenAI API - [ ]  Step-by-Step
-7 Day 1 - [ ]  Introduction to Agentic AI - [ ]  Creating Multi-Step LLM Workflows + Autonomy
+1 Day 1 
+- [ ]  Autonomous AI Agent Demo - [ ]  Using N8n to Control Smart Home Devices
+2 Day 1 
+- [ ]  AI Agent Frameworks Explained - [ ]  OpenAI SDK, Crew AI, LangGraph & AutoGen
+3 Day 1 
+- [ ]  Agent Engineering Setup - [ ]  Understanding Cursor IDE, UV & API Options
+4 Day 1 
+- [ ]  Windows Setup for AI Development - [ ]  Git, Cursor IDE & UV Package Manager
+5 Day 1 
+- [ ]  Setting Up Your Mac for AI Projects - [ ]  GitHub, Cursor IDE & OpenAI API Key
+6 Day 1 
+- [ ]  Building Your First Agentic AI Workflow with OpenAI API - [ ]  Step-by-Step
+7 Day 1 
+- [ ]  Introduction to Agentic AI - [ ]  Creating Multi-Step LLM Workflows + Autonomy
 8 Day 2 - [ ]  Building Effective Agents - [ ]  LLM Autonomy & Tool Integration Explained
 9 Day 2 - [ ]  5 Essential LLM Workflow Design Patterns for Building Robust AI Systems
 10 Day 2 - [ ]  Understanding Agent vs Workflow Patterns in LLM Application Design
