@@ -15,4 +15,10 @@ child.stdin.write("data 1 from client\n");
 child.stdin.write("exit\n");
 
 //error handling
-child.stderr.on()
+child.stderr.on('data', (data) => {
+    console.error(`Client::onerror > (FROM SERVER): ${data}`);
+});
+//handle child process exit
+child.on('exit', (code) => {
+    console.log(`Client::onexit> (From Server): Server stopped with exit code ${code}`);
+});
