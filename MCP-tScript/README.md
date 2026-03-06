@@ -131,6 +131,32 @@ child.on('exit', (code) => {
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2011.png" width="80%" height="80%">
 </a>
 
+```json
+//15A-B
+{
+    "jsonrpc":2.0,
+    "id":1,
+    "result" : {
+        "protocolVersion": "2026-03-06",
+        "capabilities": {
+        "logging": {"log":"captainsLog"},
+        "prompts":{"listChanged": true}},
+        "resources": {
+            "subscribe": true,
+            "listChanged":true
+        },
+    "tools": {
+        "listChanged":true
+    },   
+    "serverInfo": {
+        "name" : "stanServer",
+        "version" : "5000"
+    }
+  }
+}
+```
+
+
 <a>
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2012.png" width="80%" height="80%">
 </a>
