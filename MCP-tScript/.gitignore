@@ -1,0 +1,36 @@
+# ignore node modules
+node_modules/
+# ignore build output
+dist/
+# ignore environment variables
+.env
+# ignore log files
+logs/
+*.log
+# ignore coverage reports
+coverage/
+# ignore IDE specific files
+.vscode/
+.idea/
+# ignore OS specific files
+.DS_Store
+Thumbs.db
+# ignore npm debug files
+npm-debug.log*
+# ignore yarn debug filesyarn-debug.log*
+yarn-error.log* 
+# ignore lock files
+package-lock.json
+yarn.lock
+# ignore test files
+__tests__/
+# ignore temporary files
+*.tmp
+*.temp 
+# ignore compiled files
+*.tsbuildinfo
+# ignore all binaries
+*.exe
+*.dll
+*.so
+*.dylib
