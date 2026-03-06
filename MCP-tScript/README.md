@@ -55,6 +55,9 @@ rl.on('line', (line) => {
     }
 });
 ```
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%205.png" width="80%" height="80%">
+</a>
 ```TypeScript
 //client
 
@@ -81,3 +84,38 @@ child.on('exit', (code) => {
     console.log(`Client::onexit> (From Server): Server stopped with exit code ${code}`);
 });
 ```
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%206.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%207.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%208.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%209.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2010.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2011.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2012.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2013.png" width="80%" height="80%">
+</a>
+
+<a>
+  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2014.png" width="80%" height="80%">
+</a>
