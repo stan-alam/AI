@@ -58,6 +58,7 @@ rl.on('line', (line) => {
 <a>
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%205.png" width="80%" height="80%">
 </a>
+
 ```TypeScript
 //client
 
