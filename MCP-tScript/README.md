@@ -105,6 +105,28 @@ child.on('exit', (code) => {
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2010.png" width="80%" height="80%">
 </a>
 
+```json
+//14.A
+{
+    "jsonrpc": "2.0",
+    "id": 1,
+    "method": "initialize",
+    "params": {
+        "protocolVersion": "2026-03-06",
+        "capabilities": {
+            "roots": {
+                "listChanged": true
+            },
+            "sampling" : {}
+        },
+        "clientInfo": {
+            "name": "client",
+            "version": "42"
+        }
+    }
+}
+```
+
 <a>
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2011.png" width="80%" height="80%">
 </a>
@@ -115,8 +137,4 @@ child.on('exit', (code) => {
 
 <a>
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2013.png" width="80%" height="80%">
-</a>
-
-<a>
-  <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2014.png" width="80%" height="80%">
 </a>
