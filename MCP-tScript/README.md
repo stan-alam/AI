@@ -181,6 +181,12 @@ child.on('exit', (code) => {
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2017.png" width="80%" height="80%">
 </a>
 
+```typescript
+import {spawn} from 'child process';
+import {fileURLToPath} from 'url';
+import {dirname, join} from 'path'; 
+//... code stub
+```
 <a>
   <img src="https://github.com/stan-alam/AI/blob/develop/MCP-tScript/images/02/Mcp-tScript02%20-%20page%2018.png" width="80%" height="80%">
 </a>
