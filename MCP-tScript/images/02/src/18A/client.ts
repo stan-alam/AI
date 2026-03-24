@@ -35,3 +35,12 @@ function listTools(){
     console.log("DEBUG client asks for tools list");
         child.stdin.write(JSON.stringify(listToolsMessage()) + '\n');
 }
+
+async function connect(): Promise<void> {
+    //send data to the server
+console.log("Debug client sending data to a server");
+child.stdin.write(JSON.stringify(initializeMessage()) + '\n');
+
+//construct a promise that resolves when the server sends an initialization message
+return new Promise((resolve, reject) => {
+    child.stdout.on('data', (data) => { 
