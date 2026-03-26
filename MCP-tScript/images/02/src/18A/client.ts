@@ -62,3 +62,20 @@ return new Promise((resolve, reject) => {
     });
 });
 }
+function setupListeners() {
+    child.stdout.resume();
+    console.log("debug client, setting up listeners for child processes...");
+    child.stdout.on('data', (data)=> {
+        if(isJsonRpcMessage(data.toString().trim())){
+        } else {
+            console.log(`Client::ondata> (FROM SERVER): unregconized message: ${data.toString().trim()}`);
+
+    });
+    child.stderr.on('data', (data) => {
+        console.error(`Client::onerror> (FROM SERVER): ${data.toString()}`);
+    });
+    child.on('exit', (code) => {    
+        console.log(`Client::onexit> Server process exited with code ${code}`);
+    });
+}
+async function main(){}
