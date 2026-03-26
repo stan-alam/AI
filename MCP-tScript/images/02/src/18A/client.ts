@@ -21,9 +21,9 @@ let initialized = false;
 //listen for data from the child 
 
 function handleRpcMessage(data) {
-    console.log("handleRcpMessage");
+    console.log("handleRpcMessage");
 
-    let message = geRpcMessage(data.toString().trim());
+    let message = getRpcMessage(data.toString().trim());
     if (!message) {
         console.error("Invalid JSON-RPC message: ", data.toString());
         return;
@@ -44,3 +44,21 @@ child.stdin.write(JSON.stringify(initializeMessage()) + '\n');
 //construct a promise that resolves when the server sends an initialization message
 return new Promise((resolve, reject) => {
     child.stdout.on('data', (data) => { 
+        const message = data.toString().trim();
+        if (isJsonRpcMessage(message)) {
+            const json = JSON.parse(message);
+            if (isInitializationMessage(json)) {
+                console.log("Debug client received init response: ", json);
+                child.stdout.write(JSON.stringify(initalizedMessage()) + '\n');
+                initialized = true;
+                setupListeners();
+                resolve();
+            } else {
+                reject(new Error("Expected initialization message, got: " + message));
+            }
+        } else {
+            console.error("Received non-JSON message from server: ", message);
+        } 
+    });
+});
+}
