@@ -78,4 +78,13 @@ function setupListeners() {
         console.log(`Client::onexit> Server process exited with code ${code}`);
     });
 }
-async function main(){}
+async function main(){
+    await connect();
+    //after connection, start sending messages
+    listTools();
+}
+
+main().catch((err) => {
+    console.error("Error in main: ", err);
+    process.exit(1);
+});
